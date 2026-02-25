@@ -1,43 +1,186 @@
 body {
-    margin: 0;
+      margin: 0;
     padding: 0;
-    background-color: #f4f6fb; 
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    background-color: rgb(167, 218, 205);
+
+
+}
+#parte1{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: blanchedalmond;
 }
 
+#icon{
+    width: 200px;
+    height: 200px;
+}
 
-#parte1 {
-    width: 100px;
-    padding: 30px;
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px; 
+    background-color: rgb(45, 201, 180);
+    color: blanchedalmond; 
+    padding: 24px 40px;   
+}
+
+.escrita {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    align-items: center;
+    padding-bottom: 0, 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    background-color: rgb(20, 82, 82);
+    color: rgb(255, 255, 255);
+}
+
+#imagem {
+    width: 300px;
+    height: 200px;
+}
+
+.opc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 40px;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 0.5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    margin-top: 10px;
+    background-color: rgb(11, 197, 182);
+    color: rgb(255, 255, 255);
+}
+
+#compras {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-right: 900px;
+}
+
+#ult_compras {
+    background-color: rgb(185, 241, 229);
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+    margin-right: 400px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(45, 128, 128);
+    margin-top: 20px;
+}
+
+.compra {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.img_compra {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+#parte3{
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-right: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 90, 87);
+    background-color: rgb(176, 238, 240);
+    width: 100%;
+    padding: 10px;
+    margin-right: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+} 
+
+#requisicoes {
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-right: 900px;
+}
+
+    #titulo2{
+    text-align: justifyz;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding: 6px;
+    }
+
+#img_requisicao{
+    width: 900px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+#esquerdo{
+}
+
+#status{
+    background-color:  rgb(185, 241, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+#verde{
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 177, 43);
+    border-radius: 15px;
+}
+
+#vermelho{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 28, 28);
+    border-radius: 15px;
+}
+
+#amarelo{
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 224, 64);
+    border-radius: 15px;
+}
+
+#informacoes{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-.area-robo {
-    background: linear-gradient(135deg, rgb(21, 88, 100), rgb(117, 219, 194));
-    padding: 20px;
-    border-radius: 20px;
-}
-
-
-#imagem {
-    width: 150px;  
-    height: 90px;
-}
-
-
-.escrita {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 40px;
-    padding: 10px 25px;
-    background-color: rgb(21, 88, 100);
-    color: white;
-    font-weight: 600;
-    margin-bottom: 10px;
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-right: 600px;
+    color: black;
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
 }
