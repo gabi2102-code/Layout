@@ -1,25 +1,20 @@
 body {
-      margin: 10;
+   margin: 10;
     padding: 10;
     background-color: rgb(117, 219, 194);
 
 
 }
 #parte1{
-    background-color: rgb(134, 170, 236);
-    align-items: center;
-    text-align: justify;
     justify-content: space-between;
-    padding: 15px;
-    margin-right: 400px;
-    display: flex;
+    align-items: center;
+    padding: 5px;
     border-radius: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(241, 221, 176);
+    background-color: rgb(255, 255, 255);
+    color: blanchedalmond;
 }
 
 #icon{
     width: 300px;
     height: 200px;
 }
-
