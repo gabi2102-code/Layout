@@ -6,15 +6,20 @@ body {
 
 }
 #parte1{
-    justify-content: space-between;
+    background-color: rgb(134, 170, 236);
     align-items: center;
-    padding: 5px;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 15px;
+    margin-right: 400px;
+    display: flex;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 221, 176);
 }
 
 #icon{
     width: 300px;
     height: 200px;
 }
+
